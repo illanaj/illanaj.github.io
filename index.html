@@ -1,7 +1,491 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <h1>Hello world</h1>
-    <p>I'm hosted with Github Pages.</p>
+    <style>
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+pre,
+code {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+pre {
+  padding: .5rem;
+  line-height: 1.25;
+  overflow-x: scroll;
+}
+
+a,
+a:visited {
+  color: #3498db;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #2980b9;
+}
+
+.modest-no-decoration {
+  text-decoration: none;
+}
+
+html {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 32rem) and (max-width: 48rem) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  line-height: 1.85;
+}
+
+p,
+.modest-p {
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+h1,
+.modest-h1,
+h2,
+.modest-h2,
+h3,
+.modest-h3,
+h4,
+.modest-h4 {
+  margin: 1.414rem 0 .5rem;
+  font-weight: inherit;
+  line-height: 1.42;
+}
+
+h1,
+.modest-h1 {
+  margin-top: 0;
+  font-size: 3.998rem;
+}
+
+h2,
+.modest-h2 {
+  font-size: 2.827rem;
+}
+
+h3,
+.modest-h3 {
+  font-size: 1.999rem;
+}
+
+h4,
+.modest-h4 {
+  font-size: 1.414rem;
+}
+
+h5,
+.modest-h5 {
+  font-size: 1.121rem;
+}
+
+h6,
+.modest-h6 {
+  font-size: .88rem;
+}
+
+small,
+.modest-small {
+  font-size: .707em;
+}
+
+/* https://github.com/mrmrs/fluidity */
+
+img,
+canvas,
+iframe,
+video,
+svg,
+select,
+textarea {
+  max-width: 100%;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+@import url(http://fonts.googleapis.com/css?family=Arimo:700,700italic);
+
+html {
+  font-size: 18px;
+  max-width: 100%;
+}
+
+body {
+  color: #444;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  max-width: 48rem;
+  line-height: 1.45;
+  padding: .25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arimo, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  border-bottom: 2px solid #fafafa;
+  margin-bottom: 1.15rem;
+  padding-bottom: .5rem;
+  text-align: center;
+}
+
+blockquote {
+  border-left: 8px solid #fafafa;
+  padding: 1rem;
+}
+
+pre,
+code {
+  background-color: #fafafa;
+}
+</style>
+
+
+<p><img src="https://hackmd.io/_uploads/B1wQVpp6ex.jpg" alt="Picture of the Liberal Arts and Human Sciences Building during the day"></p>
+<h1 id="how-to-choose-a-minor-at-virginia-tech-liberal-arts-edition">How to Choose a Minor at Virginia Tech: Liberal Arts Edition</h1>
+<p>Students at Virginia Tech who wish to apply for a minor in the Liberal Arts and Human Sciences Department will find use in our guide on how to choose and apply for a minor. </p>
+<p>Applying for a minor should typically be done in freshman or sophomore year, as it gives more time for you to complete your minor within the typical 4-year, 8-semester bachelor&#39;s degree. </p>
+<p>The following document will serve as a comprehensive guide to all of the Liberal Arts Minors that Virginia Tech provides. This document has combined several Virginia Tech websites that you will need to find, research, and apply for a minor. </p>
+<h2 id="quick-links">Quick Links</h2>
+<p>Before we dive into this guide, we have provided a Quick Links section for easy access for all resources we use throughout this guide. Below, you will find a list of hyperlinked sources.</p>
+<ul>
+<li><a href="https://selfservice.banner.vt.edu/ssb/twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu">Hokie Spa</a></li>
+<li><a href="https://vt.navigate.eab.com/app/#/my/priority-feed/">Navigate</a></li>
+<li><a href="https://uachieve.es.cloud.vt.edu/selfservice/audit/list.html?crossApp=CrossAppUrlAttributes!!!!ISEhIWluc3RpZHE9VlQhISEhaW5zdGlkPVZBVEVDSCAgISEhIWluc3RjZC5jb2RlPVZUICEhISFpbnN0Y2QubmFtZT1VbmRlcmdyYWR1YXRlISEhIXN0dWRlbnQ9aWxsYW5hISEhIWNyZWF0ZVBsYW49ISEhIXJlZnJlc2hDb2xsZWN0aW9uPWZhbHNlISEhIWNvbGxlY3Rpb25SZWxvYWRlZD1mYWxzZSEhISF0ZXJtVG9SZWdpc3Rlcj0hISEhY291cnNlc1RvUmVnaXN0ZXI9bnVsbCEhISFkZXN0aW5hdGlvbj0=">DARS and Hokie GPS</a></li>
+<li><a href="https://www.vt.edu/academics/minors.html">Minors Database</a></li>
+<li><a href="https://liberalarts.vt.edu/forms.html">Application for Minor Form</a></li>
+</ul>
+<blockquote>
+<p>[!Note] 
+Because of Virginia Tech&#39;s safety features, you may have to sign-in when prompted and complete a Duo 2-factor authentication.</p>
+<h2 id="checksheets">Checksheets</h2>
+<p>The first action you should take when figuring out what minor is best for you is picking one that best fits within your 4-year plan. You should also consider which minor would best complement your major(s). Picking a minor is best discussed with your advisor, but you may also find it useful to consult classmates that you share a major with. </p>
+</blockquote>
+<h3 id="minor">Minor</h3>
+<p>In our table, we have created an alphabetized list of all 54 Liberal Arts minors. It has been updated as of Fall 2025 and will most likely change in the following years. </p>
+<h3 id="checksheets">Checksheets</h3>
+<p>Checksheets consist of required courses that are for the minor, similar to checksheets for majors. In the table below, there are school years that are listed for each minor. These school years are relation to when a student entered Virginia Tech. However, the required courses don&#39;t typically change throughout school years. It&#39;s highly recommended that you consult your advisor before applying for a minor to make sure that all required courses on the Checksheet are updated. </p>
+<h3 id="pathways-minors">Pathways Minors</h3>
+<p><a href="https://www.pathways.prov.vt.edu/minors.html">Pathways minors</a> are minors that are easily completed by taking already required Pathways classes. These minors allow you to complete both a minor and your Pathways classes without adding extra semesters to your schedule.</p>
+<h3 id="advisor">Advisor</h3>
+<p>An academic advisor assists students in scheduling classes, planning careers, and finding grad schools. For finding a minor, advisors can assist in finding all the required courses. Not all checksheets are fully updated or correct, so it would be best to reach out to an advisor associated with your intended minor to avoid getting outdated or incorrect information.</p>
+<table>
+<thead>
+<tr>
+<th>Minor</th>
+<th>Checksheets</th>
+<th>Pathways Minor?</th>
+<th>Advisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adaptive Brain and Behavior</td>
+<td><a href="https://www.pathways.prov.vt.edu/minors/showcase/abb.html">2025-26</a></td>
+<td>Yes</td>
+<td><a href="mailto:komelski@vt.edu">Matthew Komelski</a></td>
+</tr>
+<tr>
+<td>Advertising</td>
+<td><a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_adv_23_24.pdf">2023-24</a></td>
+<td>No</td>
+<td><a href="mailto:hshinault@vt.edu">Hannah Deuyour</a></td>
+</tr>
+<tr>
+<td>Africana Studies</td>
+<td><a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/22-23/minor_afst_22_23.pdf">2022-23</a></td>
+<td>No</td>
+<td><a href="mailto:bfaulkne@vt.edu">Brandy Faulkner</a></td>
+</tr>
+<tr>
+<td>Appalachian Cultures and Environments</td>
+<td><a href="https://catalog.vt.edu/undergraduate/minors/appalachian-cultures-environments-minor/">2025-26</a></td>
+<td>Yes</td>
+<td><a href="mailto:esatter@vt.edu">Emily Satterwhite</a></td>
+</tr>
+<tr>
+<td>Arabic</td>
+<td><a href="https://catalog.vt.edu/undergraduate/minors/arabic-minor/">2025-26</a></td>
+<td>No</td>
+<td><a href="mailto:ccook18@vt.edu">Caitlin Cook</a></td>
+</tr>
+<tr>
+<td>Asian Area Studies</td>
+<td><a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_asia_23_24.pdf">2023-24</a></td>
+<td>No</td>
+<td><a href="mailto:hms@vt.edu">Helen Schneider</a></td>
+</tr>
+<tr>
+<td>Chinese Studies</td>
+<td><a href="https://catalog.vt.edu/undergraduate/minors/chinese-studies-minor/">2025-26</a></td>
+<td>No</td>
+<td><a href="mailto:ccook18@vt.edu">Caitlin Cook</a></td>
+</tr>
+<tr>
+<td>Classical Studies</td>
+<td><a href="https://catalog.vt.edu/undergraduate/minors/classical-studies-minor/">2025-26</a></td>
+<td>No</td>
+<td><a href="mailto:ccook18@vt.edu">Caitlin Cook</a></td>
+</tr>
+<tr>
+<td>Communication</td>
+<td><a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_scom_23_24.pdf">2023-24</a></td>
+<td>No</td>
+<td><a href="mailto:hannah84@vt.edu">Hannah Deuyour</a></td>
+</tr>
+<tr>
+<td>Disabilities Studies</td>
+<td><a href="https://www.pathways.prov.vt.edu/minors/showcase/ds.html">2025-26</a></td>
+<td>Yes</td>
+<td><a href="mailto:shailamehra@vt.edu">Shaila Mehra</a></td>
+</tr>
+<tr>
+<td>Early Childhood Development and Education</td>
+<td><a href="https://catalog.vt.edu/undergraduate/minors/early-childhood-development-education/">2025-26</a></td>
+<td>No</td>
+<td><a href="mailto:sarahjarrett@vt.edu">Sarah Jarrett</a></td>
+</tr>
+<tr>
+<td>English - Creative Writing</td>
+<td><a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/22-23/minor_ceng_22_23.pdf">2022-23</a></td>
+<td>No</td>
+<td><a href="mailto:dknight1@vt.edu">Dawn Knight</a></td>
+</tr>
+<tr>
+<td>English - Literature</td>
+<td><a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/22-23/minor_lit_22_23.pdf">2022-23</a></td>
+<td>No</td>
+<td><a href="mailto:dknight1@vt.edu">Dawn Knight</a></td>
+</tr>
+<tr>
+<td>Environmental Policy and Planning</td>
+<td><a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_epp_23_24.pdf">2023-24</a></td>
+<td>No</td>
+<td><a href="mailto:chrisl@vt.edu">Chris LaPlante</a></td>
+</tr>
+<tr>
+<td>French</td>
+<td><a href="https://catalog.vt.edu/undergraduate/minors/french-minor/">2025-26</a></td>
+<td>No</td>
+<td><a href="mailto:ccook18@vt.edu">Caitlin Cook</a></td>
+</tr>
+<tr>
+<td>French for Business</td>
+<td><a href="https://catalog.vt.edu/undergraduate/minors/french-business-minor/">2025-26</a></td>
+<td>No</td>
+<td><a href="mailto:ccook18@vt.edu">Caitlin Cook</a></td>
+</tr>
+<tr>
+<td>Gender, Science, and Technology</td>
+<td><a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_gst_23_24.pdf">2023-24</a></td>
+<td>No</td>
+<td><a href="mailto:cowebb@vt.edu">Cora Olson</a></td>
+</tr>
+<tr>
+<td>German</td>
+<td><a href="https://catalog.vt.edu/undergraduate/minors/german-minor/">2025-26</a></td>
+<td>No</td>
+<td><a href="mailto:ccook18@vt.edu">Caitlin Cook</a></td>
+</tr>
+<tr>
+<td>Global Development and Political Economy</td>
+<td><a href="https://catalog.vt.edu/undergraduate/minors/global-development-political-economy-minor/">2025-26</a></td>
+<td>No</td>
+<td><a href="mailto:phoebe@vt.edu">Phoebe Peterson</a></td>
+</tr>
+<tr>
+<td>Global Engagement</td>
+<td><a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_glbe_23_24.pdf">2023-24</a></td>
+<td>No</td>
+<td><a href="mailto:phoebe@vt.edu">Phoebe Peterson</a></td>
+</tr>
+<tr>
+<td>Health Communication</td>
+<td><a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_hcom_23_24.pdf">2023-24</a></td>
+<td>Yes</td>
+<td><a href="mailto:hshinault@vt.edu">Hannah Deuyour</a></td>
+</tr>
+<tr>
+<td>History</td>
+<td><a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_hist_23_24.pdf">2023-24</a></td>
+<td>No</td>
+<td><a href="mailto:hafurrow@vt.edu">Heath Furrow</a></td>
+</tr>
+<tr>
+<td>Humanities, Science, and Environment</td>
+<td><a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/22-23/minor_hse_22_23.pdf">2022-23</a></td>
+<td>No</td>
+<td><a href="mailto:slusserc@vt.edu">Carol Slusser</a></td>
+</tr>
+<tr>
+<td>Integrated Security</td>
+<td><a href="https://www.pathways.prov.vt.edu/minors/showcase/is.html">2025-26</a></td>
+<td>Yes</td>
+<td><a href="mailto:abrantly@vt.edu">Aaron Brantley</a></td>
+</tr>
+</tbody>
+</table>
+<p>International Relations|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_irel_23_24.pdf">2023-24</a>|No|<a href="mailto:phoebe@vt.edu">Phoebe Peterson</a>
+International Studies|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_is_23_24.pdf">2023-24</a>|No|<a href="mailto:jhanratty@vt.edu">Jennifer Hanratty</a>
+Italian|<a href="https://catalog.vt.edu/undergraduate/minors/italian-minor/">2025-26</a>|No|<a href="mailto:ccook18@vt.edu">Caitlin Cook</a>
+Japanese Studies|<a href="https://catalog.vt.edu/undergraduate/minors/japanese-studies-minor/">2025-26</a>|No|<a href="mailto:ccook18@vt.edu">Caitlin Cook</a>
+Judaic Studies|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/22-23/minor_jud_22_23.pdf">2022-2023</a>|No|<a href="mailto:bbritt@vt.edu">Brian Britt</a>
+Language Sciences|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/22-23/minor_lngs_22_23.pdf">2022-23</a>|No|<a href="mailto:dknight1@vt.edu">Dawn Knight</a>
+Language Sciences (Pathways Minor)|<a href="https://www.pathways.prov.vt.edu/minors/showcase/ls.html">2025-26</a>|Yes|<a href="mailto:ccook18@vt.edu">Caitlin Cook</a>
+Language and Culture for the Practice of Science|<a href="https://catalog.vt.edu/undergraduate/minors/language-culture-practice-science-minor/">2025-26</a>|No|<a href="mailto:ccook18@vt.edu">Caitlin Cook</a>
+Medicine and Society|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_msoc_23_24.pdf">2023-24</a>|No|<a href="mailto:rjhester@vt.edu">Rebecca Hester</a>
+Middle East Studies|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_mest_23_24.pdf">2023-24</a>|No|<a href="mailto:rmscott@vt.edu">Rachel Scott</a>
+National Security and Foreign Affairs|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_nsfa_23_24.pdf">2023-24</a>|No|<a href="mailto:phoebe@vt.edu">Phoebe Peterson</a>
+Peace Studies and Social Justice|<a href="https://www.pathways.prov.vt.edu/minors/showcase/pssj.html">2025-26</a>|Yes|<a href="mailto:rrg@vt.edu">Rebecca Franklin</a>
+Philosophy|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_phil_23_24.pdf">2023-24</a>|No|<a href="mailto:whann79@vt.edu">Hannah Wildman Short</a>
+Philosophy, Politics, and Economics|<a href="https://www.pathways.prov.vt.edu/minors/showcase/ppe.html">2025-26</a>|Yes|<a href="mailto:hafurrow@vt.edu">Heath Furrow</a>
+Political Science|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_psci_23_24.pdf">2023-24</a>|No|<a href="mailto:copowell@vt.edu">Courtney Thomas</a>
+Popular Culture|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_popc_23_24.pdf">2023-24</a>|No|<a href="mailto:esatter@vt.edu">Emily Satterwhite</a>
+Religion|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_rel_23_24.pdf">2023-24</a>|No|<a href="mailto:nizhange@vt.edu">Zhange Ni</a>
+Russian|<a href="https://catalog.vt.edu/undergraduate/minors/russian-minor/">2025-26</a>|No|<a href="mailto:ccook18@vt.edu">Caitlin Cook</a>
+Russian Area Studies|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/22-23/minor_ras_22_23.pdf">2022-23</a>|No|<a href="mailto:etewing@vt.edu">Tom Ewing</a>
+Science, Technology, and Society|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/22-23/minor_stso_22_23.pdf">2022-23</a>|No|<a href="mailto:slusserc@vt.edu">Carol Sue Slusser</a>
+Smart &amp; Sustainable Cities|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_ssc_23_24.pdf">2023-24</a>|No|<a href="mailto:chris1@vt.edu">Chris LaPlante</a>
+Sociology|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_ssc_23_24.pdf">2023-24</a>|No|<a href="mailto:rrg@vt.edu">Rebecca Franklin</a>
+Spanish|<a href="https://catalog.vt.edu/undergraduate/minors/spanish-minor/">2025-26</a>|No|<a href="mailto:ccook18@vt.edu">Caitlin Cook</a>
+Strategic Communication|<a href="https://www.pathways.prov.vt.edu/minors/showcase/sc.html">2025-26</a>|Yes|<a href="mailto:hshinault@vt.edu">Hannah Deuyour</a>
+Technical and Scientific Communication|<a href="https://liberalarts.vt.edu/academics/majors-and-minors/professional-and-technical-writing-major.html..html#curriculum">2025-26</a>|No|<a href="mailto:dknight@vt.edu">Dawn Knight</a>
+Transatlantic Studies|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/23-24/minor_trst_23_24.pdf">2023-24</a>|No|<a href="mailto:phoebe@vt.edu">Phoebe Peterson</a>
+War and Society|<a href="https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/minors/22-23/minor_was_22_23.pdf">2022-23</a>|No|<a href="mailto:hafurrow@vt.edu">Heath Furrow</a>
+Women&#39;s, Gender, and Sexuality Studies|<a href="https://catalog.vt.edu/undergraduate/minors/womens-gender-sexuality-studies-minor/">2025-26</a>|No|<a href="mailto:bonzare@vt.edu">Bonnie Zare</a></p>
+<h2 id="using-the-timetable-of-classes">Using the Timetable of Classes</h2>
+<p>Timetable of classes offer a variety of choices that can be difficult, yet important to know what all of them mean. The following bullet points will be explaining what each part of timetable means:
+<img src="https://hackmd.io/_uploads/S1DRT-dAgl.png" alt="Picture of Timetable of Classes. Depicts Campus, Subject, Course Number, Course nodality, Term, Course Request, Pathways General Education, Schedule Type, and Display which is explained below"></p>
+<ol>
+<li><strong>Campus</strong>: Campus refers to the college campus you are attending. This includes the dorms, class buildings, and dining hall. If you are attending Virginia Tech as an undergrad, you will only have to look at the next three</li>
+<li><strong>Subjects</strong>: Subjects are just the classes you have to take at Virginia Tech. They are written in alphabetical order with the abbrecviation appearing first, with the offical name appearing next to the abbreviation.</li>
+<li><strong>Course Number</strong>: This is an optional choice when searching for classes. The term &quot;course number&quot; refers to the number next to the abbreviated name of a class. This number is spsecific to the course and is <strong>not</strong> the same as a Course Request Numbers because they can&#39;t be used on course request.</li>
+<li><strong>Course Request Number(CRN)</strong>: Course Request Numbers are the numbers speific to a given class, you would type this into you on Add/Drop when you are looking for a particular course. All classes have different CRNs.</li>
+<li><strong>Course Modality</strong>: This gives you the option to look for in- person classes, classes that take plce on zoom (synchronous), Hybrid(in-person and zoom meetings) and classes that are completely offline and not in-person(asynchronous) </li>
+<li><strong>Schedule Types</strong>: This is for class-type, which can be categrorized into labs, research, independent studies, and recitations, and lecture. Lectures are the standard classes that Virginia Tech students take. Labs are the one credit ccourses associated with a specific lecture/standard class often led by a TA. Most students will largely experience Lectures and Labs. Rectiations are essentially smaller lecture clases led by TAs. Research is the undegraduate or graduate research that a student does, often with a professor. This often requires formal discussion with a professor and research oppourtinites are more likely to be found on Handshake. (COME BACK TO THISSSSS).</li>
+<li><strong>Display</strong>: This allows you to show either open sections alone or open and closed sections. For Display &quot;Sections&quot; is another war of referring to classes.</li>
+</ol>
+<h2 id="how-to-use-navigate">How to Use Navigate</h2>
+<p><a href="https://vt.navigate.eab.com/app/#/authentication/remote/">Navigate</a> has two very helpful options</p>
+<ol>
+<li><strong>Appointments</strong>: Clicking on appointments will allow you to see your Appointments, Teams, and and History. If you click &quot;Schedule Appointment&quot; on the upper right side of your screen, the link will take you to the image below [<img src="https://hackmd.io/_uploads/r1Ga-xOJWe.png" alt="Picture of the &quot;New Appointment&quot; option. There is a list of the type of appointment, service, and date of appointment"></li>
+</ol>
+<p>View Drop-in Times is another option you can choose, as shown in the screen, if you want to meet in person. Once you fill out the table it will take you to the image shown below: 
+<img src="https://hackmd.io/_uploads/rJeMMcYJ-l.png" alt="Picture of View Drop-In Times.There is a list of filters on  the left and a location listed on the right">
+You can see a listed staff, location of meeting, and the specific course you want to look at. The type of appointment and service you choose dictate the staff, location and choice</p>
+<p><strong>Resources</strong>:
+Reources have two options: places and people. If you choose people, you will see your instructors and advisors, a sample photo is pictured below:
+<img src="https://hackmd.io/_uploads/HykuvitkZl.png" alt="Picutre of the Resource page with Advisor and instructor as options">
+The option advisors show both major and minor advisors. Instructors will show all professors for all classes. If you click on the advisor pages you can schedule an appointment.</p>
+<h2 id="exploring-dars-and-hokie-gps">Exploring DARS and Hokie GPS</h2>
+<p><a href="https://uachieve.es.cloud.vt.edu/selfservice/audit/list.html">DARS</a> is a website located on HokieSpa that allows you to view a four-year plan completed with all your required courses. </p>
+<p>You are able to run an audit for your major(s), but it depends on what major you have if your minor will appear. For example, because the Advertising major requires a minor or double major, you will be able to see your minor requirements within the Advertising Audit. However, if your major doesn&#39;t require a minor, it&#39;s unlikely that it will appear within your major&#39;s audit. </p>
+<p>To run an audit, press the maroon button that says, <strong>Run Audit</strong> located on the left side of your screen. Once you press this button, a table of your major(s) should appear. Press the button <strong>Run Declared Programs</strong> below the table. </p>
+<p>Once you&#39;ve run your Declared Programs, you should be left with a table that looks like the one below. </p>
+<p><img src="https://hackmd.io/_uploads/rJtmGeOJWg.png" alt="Screenshot of Declared Programs Audit Request on DARS"></p>
+<p>Click on your major underneath the <strong>Program</strong> section. It should take you to where you can find all the required courses for your major. </p>
+<p>When you enter the audit for your major, you might see a section that includes a minor. </p>
+<p><img src="https://hackmd.io/_uploads/S1ZDLNu1Zl.png" alt="A DARS audit showing a Language Sciences Minor dropdown menu"></p>
+<p>In the example above, you can see that there&#39;s a Language Sciences minor section, where you can see completed and incompleted courses. </p>
+<p>If you&#39;re not able to see your minor, that&#39;s not unusual. Howevever, you aren&#39;t able to run a minor audit, so you won&#39;t be able to see it individually. </p>
+<p>In the case of there not being a minor section on your major&#39;s audit, you should consult your respective minor checksheet to figure out what courses are required. </p>
+<p>If you can see a minor section for your major audit, you can plan your classes accordingly and register for them when <a href="https://www.undergraduate.provost.vt.edu/aai/advising-technology/advising-technology-for-students/hokiespa-for-students/course-registration/course-request-classes.html">Course Request</a> opens every semester. </p>
+<h2 id="filling-out-the-application">Filling Out the Application</h2>
+<p>To offically add a minor, you have to fill out the Add a Minor form. To start this process, you should first navigate to the <a href="https://liberalarts.vt.edu/forms.html">Undergraduate Forms</a> section on Virginia Tech&#39;s website. </p>
+<p>Once you have reached this page, you should scroll down until you see the Change of Minor (Docusign) dropdown menu.</p>
+<p><img src="https://hackmd.io/_uploads/HJJQlFt1bg.png" alt="Screenshot of the Change of Minor dropdown menu with information on what links to follow."></p>
+<p>You are able to preview the form before you go to the Docusign website, where you will be officially signing the document. </p>
+<p>Click on the hyperlinked <a href="https://powerforms.docusign.net/ecc20955-2abf-44b3-95f8-60738a1d3f4e?env=na3&amp;acct=56122d2a-846e-4d35-8806-f4385dd19203&amp;accountId=56122d2a-846e-4d35-8806-f4385dd19203">Request to Change Minor(s) (DocuSign)</a> where you will be able to sign the document. You will be prompted to enter your name and email address. Do so accordingly. </p>
+<p>Once you&#39;ve accessed the form, you will be asked questions about your current academic standing, like your GPA, academic year, and Graduation Term. Answer these questions accordingly. </p>
+<p>Once you have completed this form, you should click the Finish button at either the top right of your screen or the bottom of the form. You should recieve an email from a coordinator either approving or denying your application in the following weeks. </p>
+<p>If you have been approved, you will be able to start working towards completing the minor the start of the next semester. </p>
+<h2 id="the-road-ahead">The Road Ahead</h2>
+<p>Once you have completed all these steps, you should officially have been able to choose and apply for a minor. </p>
+<p>Keep in mind that if you have any questions regarding the process, it&#39;s best to reach out to your advisor. </p>
+<p><img src="https://hackmd.io/_uploads/r17vqct1Zl.jpg" alt="Photo of Virginia Tech sign in front of a sunset"></p>
+
 </body>
 </html>
