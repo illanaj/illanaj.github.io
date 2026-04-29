@@ -1,0 +1,348 @@
+.danfo-regular {
+  font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "ELSH" 0;
+}
+
+.wendy-one-regular {
+  font-family: "Wendy One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.gallery img {
+  width: 100%;       /* Makes image scale with its container */
+  max-width: 300px;  /* Prevents it from getting too huge */
+  height: auto;      /* Keeps the original proportions */
+  border-radius: 50%; /* Makes the image a circle */
+  border: 5px solid #811fd7;
+}
+
+.hero-section {
+  /* Set background image with a dark overlay for text readability */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://i.pinimg.com/1200x/98/cf/5a/98cf5a1bd5ea4074ba4372a895530931.jpg');
+  
+  /* Sizing and positioning */
+  height: 100vh; /* Adjust height (e.g., 100vh for full screen) */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Center the content inside */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-section1 {
+  /* Set background image with a dark overlay for text readability */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://i.pinimg.com/1200x/68/ff/e0/68ffe096de5b1c677148ff1339ca8c53.jpg');
+  
+  /* Sizing and positioning */
+  height: 100vh; /* Adjust height (e.g., 100vh for full screen) */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: -webkit-optimize-contrast; 
+
+  /* Center the content inside */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content1 h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-section2 {
+  /* Set background image with a dark overlay for text readability */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://i.pinimg.com/736x/4d/f1/a4/4df1a45963cbce66cdd746552e9c08d3.jpg');
+  
+  /* Sizing and positioning */
+  height: 100vh; /* Adjust height (e.g., 100vh for full screen) */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Center the content inside */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content2 h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-section3 {
+  /* Set background image with a dark overlay for text readability */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://i.pinimg.com/1200x/f2/a3/ba/f2a3ba666b1cf85aabe40c925143b029.jpg');
+  
+  /* Sizing and positioning */
+  height: 60vh; /* Adjust height (e.g., 100vh for full screen) */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: -webkit-optimize-contrast; 
+
+
+  /* Center the content inside */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content3 h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Pushes items to opposite ends */
+  align-items: center;           /* Keeps them vertically centered */
+}
+
+.my-button {
+  /* 1. Remove default styles */
+  background-color: transparent; /* A nice blue */
+  border: 2px solid white;
+  border-color: white;
+  padding: 10px 20px;
+  
+  /* 2. Add spacing and shape */
+  padding: 12px 24px;       /* Top/Bottom and Left/Right */
+  text-align: center;
+  text-decoration: none;
+  font-family: "Wendy One", sans-serif;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;       /* Rounds the corners */
+  
+  /* 3. Make it feel clickable */
+  cursor: pointer;
+  transition: 0.3s;         /* Smooths out color changes */
+}
+
+.home-section {  
+  /* Sizing and positioning */
+  height: 100vh; /* Adjust height (e.g., 100vh for full screen) */
+  min-height: 60vh;
+  background-color:#689581;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Center the content inside */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+#newest-genres {
+  background-color: #689581;
+}
+
+.left-container1 {
+  background: linear-gradient(135deg, #ffffff, #f8f9fa);
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+
+
+  padding: 25px;
+  max-width: 400px;
+  margin: 40px auto;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.left-container1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: minmax(0, 800px); /* Sets a max width */
+  justify-content: center; /* Centers the whole block on the page */
+  padding: 0 1rem;
+}
+
+h1, p {
+  margin-inline: 0; /* Ensures no side margins push them out of sync */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;  /* centers images horizontally */
+  gap: 10px;
+}
+
+.image-container img {
+  flex: 1;              /* makes images share space evenly */
+  min-width: 50px;         /* prevents flex overflow bug */
+  height: 50px;        /* controls size (lower = smaller images) */
+  object-fit: cover;    /* crops instead of stretching */
+  display: block;
+}
+
+
+.text-container {
+  display: flex;       /* This aligns them horizontally */
+  gap: 10px;           /* This adds space between the images */
+  justify-content: center; /* This centers the group on the page */
+}
+
+
+.banner {
+  overflow: hidden;
+  white-space: nowrap;
+  background: #689581;
+  color: #ffffff;
+
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  position: relative; /* needed for fade */
+}
+
+/* animation part (you were missing this or overwrote it) */
+.banner-track {
+  display: inline-block;
+  animation: scroll 15s linear infinite;
+}
+
+.banner-track span {
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: "Wendy One", sans-serif;
+}
+
+/* KEYFRAMES = REQUIRED */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* fade edges */
+.banner::before,
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  z-index: 2;
+}
+
+.banner::before {
+  left: 0;
+  background: linear-gradient(to right, #689581, transparent);
+}
+
+.banner::after {
+  right: 0;
+  background: linear-gradient(to left, #689581, transparent);
+}
+
+.container2 {
+  display: grid;
+  place-items: center; /* Centers everything horizontally and vertically */
+  text-align: center;  /* Centers the text lines */
+}
+
+/* GRID LAYOUT */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 900px;
+}
+
+/* CARD */
+.news-card {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  background-color: #ffffff;
+  font-family: "Wendy One", sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease, transform 0.1s ease;
+}
+
+.news-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.news-card:active {
+  transform: scale(0.98);
+}
+
+/* IMAGE */
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* CONTENT */
+.content {
+  padding: 15px;
+}
+
+.content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.content p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.meta {
+  font-size: 12px;
+  color: #777;
+}
+
+.category {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+body {
+  background-color: #ffffff;
+}
