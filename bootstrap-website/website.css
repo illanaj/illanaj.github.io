@@ -198,7 +198,7 @@ h1, p {
 
 .image-container {
   display: flex;
-  justify-content: left;  /* centers images horizontally */
+  justify-content: center;  /* centers images horizontally */
   gap: 10px;
 }
 
