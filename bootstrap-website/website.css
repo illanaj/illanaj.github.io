@@ -198,7 +198,7 @@ h1, p {
 
 .image-container {
   display: flex;
-  justify-content: center;  /* centers images horizontally */
+  justify-content: left;  /* centers images horizontally */
   gap: 10px;
 }
 
@@ -346,3 +346,6 @@ h1, p {
 body {
   background-color: #ffffff;
 }
+
+summary { list-style: none; cursor: pointer; }
+summary::-webkit-details-marker { display: none; } /* For older Safari */
