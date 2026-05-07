@@ -46,14 +46,14 @@
 
 .hero-section1 {
   /* Set background image with a dark overlay for text readability */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://i.pinimg.com/1200x/68/ff/e0/68ffe096de5b1c677148ff1339ca8c53.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/1200x/59/78/3d/59783dfe8bf00fd05b213f94bad46e6b.jpg');
   
   /* Sizing and positioning */
   height: 100vh; /* Adjust height (e.g., 100vh for full screen) */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  image-rendering: -webkit-optimize-contrast; 
+ 
 
   /* Center the content inside */
   display: flex;
@@ -70,7 +70,7 @@
 
 .hero-section2 {
   /* Set background image with a dark overlay for text readability */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://i.pinimg.com/736x/4d/f1/a4/4df1a45963cbce66cdd746552e9c08d3.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/1200x/30/b4/96/30b496538bb9303186b9d72b32a01706.jpg');
   
   /* Sizing and positioning */
   height: 100vh; /* Adjust height (e.g., 100vh for full screen) */
@@ -123,6 +123,28 @@
 }
 
 .my-button {
+  /* 1. Remove default styles */
+  background-color: transparent; /* A nice blue */
+  border: 2px solid white;
+  border-color: white;
+  padding: 10px 20px;
+  
+  /* 2. Add spacing and shape */
+  padding: 12px 24px;       /* Top/Bottom and Left/Right */
+  text-align: center;
+  text-decoration: none;
+  font-family: "Wendy One", sans-serif;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;       /* Rounds the corners */
+  
+  /* 3. Make it feel clickable */
+  cursor: pointer;
+  transition: 0.3s;         /* Smooths out color changes */
+}
+
+.my-button1 {
   /* 1. Remove default styles */
   background-color: transparent; /* A nice blue */
   border: 2px solid white;
@@ -198,7 +220,7 @@ h1, p {
 
 .image-container {
   display: flex;
-  justify-content: center;  /* centers images horizontally */
+  justify-content: left;  /* centers images horizontally */
   gap: 10px;
 }
 
@@ -323,19 +345,22 @@ h1, p {
 
 .content h2 {
   font-size: 20px;
+  font-family: "Danfo", serif;
   margin-bottom: 10px;
   line-height: 1.3;
+  col
 }
 
 .content p {
   font-size: 14px;
-  color: #444;
+  font-family: "Danfo", serif;
+  color: #000000;
   margin-bottom: 12px;
 }
 
 .meta {
   font-size: 12px;
-  color: #777;
+  color: #000000;
 }
 
 .category {
@@ -344,8 +369,32 @@ h1, p {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #ffffff6d;
 }
 
 summary { list-style: none; cursor: pointer; }
 summary::-webkit-details-marker { display: none; } /* For older Safari */
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* This removes the double borders between cells */
+  margin: 20px 0;
+  font-family: "Wendy One", sans-serif;
+  color:#ffffff
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Creates a clean horizontal line look */
+}
+
+th {
+  background-color: #ffffff6d;
+  color: #333;
+}
+
+/* Zebra Striping: highlights every other row for better readability */
+tr:nth-child(even) {
+  background-color: #ffffff6d;
+}
